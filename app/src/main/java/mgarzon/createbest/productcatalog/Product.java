@@ -9,7 +9,7 @@ public class Product {
     private String _productname;
     private double _price;
 
-    public Product() {
+    public Product(String id, String dell_monitor, String s) {
     }
     public Product(String id, String productname, double price) {
         _id = id;
